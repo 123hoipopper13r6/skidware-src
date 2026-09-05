@@ -1,0 +1,17 @@
+{
+  "count": 3,
+  "flags": [
+    {
+      "name": "FFlagMigrateCameraCFrameDatamodel",
+      "rva": 137733352
+    },
+    {
+      "name": "FFlagMigrateCameraFocusDatamodel",
+      "rva": 137733376
+    },
+    {
+      "name": "FFlagMigrateCameraFovDatamodel",
+      "rva": 137733400
+    }
+  ]
+}
