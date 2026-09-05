@@ -121,12 +121,12 @@ Everything lives in `C:\Skidware\`:
 2. Run the built dumper while Roblox is open; it writes `offsets.h/json/py/cs`, `structs.h`,
    `sdk_offsets.hpp` and `sdk_fflags.hpp`, then deploys the SDK headers into `external/Roblox/`.
 3. `update-offsets.ps1` automates the whole regenerate path.
-4. The dumper must run against a **live Roblox place**: load a place in the client
-   (Studio test place included at `dumper/Place/veryskidded.rbxl`) and run the dumper
-   while that place is up — it dumps offsets from the running instance tree. Because
-   offsets are found from instances that actually exist in the loaded place, **some
-   functions may fail to dump** depending on what the place contains. Dump from a
-   place that instantiates the classes you need.
+4. To dump, the test place must be running in the **real Roblox client** — not Studio play
+   mode. Workflow: open `dumper/Place/veryskidded.rbxl` in Studio → **publish/upload** it →
+   launch Roblox and **join that place in the client** → only then run the dumper, which
+   attaches to the live client and dumps from the running instance tree. Note that **some
+   functions may fail to dump** depending on what the loaded place instantiates — dump from
+   a place that contains the classes you need.
 
 ## Community
 
