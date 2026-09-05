@@ -143,7 +143,7 @@ is appreciated but **not required**.
 
 - **Inferno** — the `external/` cheat is built on the **Inferno source** as a base,
   obtained from the **Margiela** server, then heavily reworked.
-- **Dumper** — a fork of **jonah/nopjo's roblox-dumper** (itself written with Ox Alpha),
+- **Dumper** — a fork of **jonah/nopjo's roblox-dumper** ([dumper.jonah.cool](https://dumper.jonah.cool/); itself written with Ox Alpha),
   extended with extra stages and the auto-deploy pipeline.
 - Around **90% vibecoded** with **DeepSeek V4 Flash**, **Big Pickle**, and **Ox Alpha**
   (now **GLM 4 Flash**). The remaining ~10% is manual fixing, debugging and tuning.
