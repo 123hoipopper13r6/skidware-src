@@ -122,6 +122,23 @@ Everything lives in `C:\Skidware\`:
    `sdk_offsets.hpp` and `sdk_fflags.hpp`, then deploys the SDK headers into `external/Roblox/`.
 3. `update-offsets.ps1` automates the whole regenerate path.
 
+## Community
+
+- **Discord:** https://discord.gg/G6BVGGC8yG
+- **Website:** https://skidware-website.skiddev.workers.dev/
+
+## License & use
+
+Do whatever you want with this project — **add, modify, remove, debug, reuse,
+rewrite, even strip out the backend auth system entirely**. The only two things
+that are off-limits:
+
+1. Bundling or distributing **malware** in/with it.
+2. **Sharing anything you put into it as if it shipped with the original project.**
+
+Other than that, no permission needed. If you do use it for something, a shout-out
+is appreciated but **not required**.
+
 ## Origins & credits
 
 - **Inferno** — the `external/` cheat is built on the **Inferno source** as a base,
@@ -142,7 +159,7 @@ Everything lives in `C:\Skidware\`:
 | nlohmann/json | Niels Lohmann | MIT |
 | Clipper2 | Angus Johnson | BSL-1.0 |
 | FreeType | FreeType Project | FTL (permissive) |
-| LuckMemory | internal | — |
+| LuckMemory | [obamaruntz/luck-memory](https://github.com/obamaruntz/luck-memory) | — |
 | xorstr.hpp | Andrivet/OneDrive | Apache-2.0 license notice retained |
 | Zydis / Zycore (dumper) | zyantific | MIT |
 | spdlog (dumper) | gabime | MIT |
