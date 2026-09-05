@@ -121,6 +121,8 @@ Everything lives in `C:\Skidware\`:
 2. Run the built dumper while Roblox is open; it writes `offsets.h/json/py/cs`, `structs.h`,
    `sdk_offsets.hpp` and `sdk_fflags.hpp`, then deploys the SDK headers into `external/Roblox/`.
 3. `update-offsets.ps1` automates the whole regenerate path.
+4. A starter test place is included at `dumper/Place/veryskidded.rbxl` — open it in Studio,
+   run it, and attach the dumper to verify offsets against known instance structures.
 
 ## Community
 

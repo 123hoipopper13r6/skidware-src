@@ -12,6 +12,9 @@ dumper/out/
 # Logs
 dumper/*.log
 
+# Studio lock files
+*.rbxl.lock
+
 # OS noise
 Thumbs.db
 Desktop.ini
